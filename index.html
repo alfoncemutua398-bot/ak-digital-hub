@@ -2,26 +2,97 @@
 <html>
 <head>
     <title>AK Digital Hub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body{
+            font-family: Arial;
+            margin:0;
+            background:#f4f4f4;
+        }
+
+        header{
+            background:#0d6efd;
+            color:white;
+            text-align:center;
+            padding:40px 20px;
+        }
+
+        nav{
+            background:#222;
+            padding:15px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:10px;
+        }
+
+        .container{
+            padding:20px;
+        }
+
+        .card{
+            background:white;
+            padding:20px;
+            margin:15px 0;
+            border-radius:10px;
+        }
+
+        footer{
+            background:#222;
+            color:white;
+            text-align:center;
+            padding:15px;
+            margin-top:20px;
+        }
+    </style>
 </head>
+
 <body>
 
-<h1>AK Digital Hub</h1>
-<p>Smart Solutions for a Digital World</p>
+<header>
+    <h1>AK Digital Hub</h1>
+    <p>Smart Solutions for a Digital World</p>
+</header>
 
-<h2>About Me</h2>
-<p>I am Alfonce Kyalo, an ICT Technician specializing in computer repair, software installation, IT support, databases, and basic networking.</p>
+<nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
 
-<h2>Services</h2>
-<ul>
-    <li>Computer Repair & Maintenance</li>
-    <li>Software Installation</li>
-    <li>IT Support</li>
-    <li>Database Management</li>
-    <li>Basic Networking</li>
-</ul>
+<div class="container">
 
-<h2>+254 731 065515</h2>
-<p>Email: alfoncemutua398@gmail.com</p>
+    <div class="card" id="about">
+        <h2>About Me</h2>
+        <p>I am Alfonce Kyalo, an ICT Technician specializing in computer repair, software installation, IT support, database management, and basic networking.</p>
+    </div>
+
+    <div class="card" id="services">
+        <h2>Services</h2>
+        <ul>
+            <li>Computer Repair & Maintenance</li>
+            <li>Software Installation</li>
+            <li>IT Support</li>
+            <li>Database Management</li>
+            <li>Basic Networking</li>
+        </ul>
+    </div>
+
+    <div class="card" id="contact">
+        <h2>contact</h2>
+        <p>Email:alfoncemutua398@gmail.com.com</p>
+        <p>Phone:0731065515</p>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 AK Digital Hub</p>
+</footer>
 
 </body>
 </html>
