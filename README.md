@@ -1,1 +1,112 @@
-# ak-digital-hub
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AK Digital Hub</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f4f4f4;
+}
+
+header{
+    background:#0d47a1;
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+nav{
+    background:#222;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+}
+
+section{
+    background:white;
+    margin:20px;
+    padding:20px;
+    border-radius:10px;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>AK Digital Hub</h1>
+    <p>Smart Solutions for a Digital World</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#downloads">Downloads</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+    I am Alfonce Kyalo, an ICT Technician specializing in
+    Computer Repair & Maintenance, Software Installation,
+    IT Support, Database Services and Basic Networking.
+    </p>
+</section>
+
+<section id="services">
+    <h2>Services</h2>
+
+    <h3>🖥 Computer Repair & Maintenance</h3>
+    <p>Troubleshooting and maintaining computers.</p>
+
+    <h3>💿 Software Installation</h3>
+    <p>Windows, drivers and application installation.</p>
+
+    <h3>🔧 IT Support</h3>
+    <p>Technical support and problem solving.</p>
+
+    <h3>🗄 Database Services</h3>
+    <p>Database setup and management.</p>
+
+    <h3>🌐 Basic Networking</h3>
+    <p>LAN setup and network troubleshooting.</p>
+</section>
+
+<section id="downloads">
+    <h2>Downloads</h2>
+
+    <a href="brochure.pdf" download>
+        Download AK Digital Hub Brochure
+    </a>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+
+    <p>Email: alfoncemutua398@gmail.com</p>
+    <p>Phone: +254 731 065515</p>
+</section>
+
+<footer>
+    © 2026 AK Digital Hub
+</footer>
+
+</body>
+</html>
