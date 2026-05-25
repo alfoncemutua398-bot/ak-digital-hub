@@ -1,54 +1,50 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>AK Digital Hub</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AK Digital Hub</title>
 
-    <style>
-        body{
-            font-family: Arial;
-            margin:0;
-            background:#f4f4f4;
-        }
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f4f4f4;
+}
 
-        header{
-            background:#0d6efd;
-            color:white;
-            text-align:center;
-            padding:40px 20px;
-        }
+header{
+    background:#0d47a1;
+    color:white;
+    text-align:center;
+    padding:40px;
+}
 
-        nav{
-            background:#222;
-            padding:15px;
-            text-align:center;
-        }
+nav{
+    background:#222;
+    padding:15px;
+    text-align:center;
+}
 
-        nav a{
-            color:white;
-            text-decoration:none;
-            margin:10px;
-        }
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+}
 
-        .container{
-            padding:20px;
-        }
+section{
+    background:white;
+    margin:20px;
+    padding:20px;
+    border-radius:10px;
+}
 
-        .card{
-            background:white;
-            padding:20px;
-            margin:15px 0;
-            border-radius:10px;
-        }
-
-        footer{
-            background:#222;
-            color:white;
-            text-align:center;
-            padding:15px;
-            margin-top:20px;
-        }
-    </style>
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+</style>
 </head>
 
 <body>
@@ -61,37 +57,55 @@
 <nav>
     <a href="#about">About</a>
     <a href="#services">Services</a>
+    <a href="#downloads">Downloads</a>
     <a href="#contact">Contact</a>
 </nav>
 
-<div class="container">
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+    I am Alfonce Kyalo, an ICT Technician specializing in
+    Computer Repair & Maintenance, Software Installation,
+    IT Support, Database Services and Basic Networking.
+    </p>
+</section>
 
-    <div class="card" id="about">
-        <h2>About Me</h2>
-        <p>I am Alfonce Kyalo, an ICT Technician specializing in computer repair, software installation, IT support, database management, and basic networking.</p>
-    </div>
+<section id="services">
+    <h2>Services</h2>
 
-    <div class="card" id="services">
-        <h2>Services</h2>
-        <ul>
-            <li>Computer Repair & Maintenance</li>
-            <li>Software Installation</li>
-            <li>IT Support</li>
-            <li>Database Management</li>
-            <li>Basic Networking</li>
-        </ul>
-    </div>
+    <h3>🖥 Computer Repair & Maintenance</h3>
+    <p>Troubleshooting and maintaining computers.</p>
 
-    <div class="card" id="contact">
-        <h2>contact</h2>
-        <p>Email:alfoncemutua398@gmail.com.com</p>
-        <p>Phone:0731065515</p>
-    </div>
+    <h3>💿 Software Installation</h3>
+    <p>Windows, drivers and application installation.</p>
 
-</div>
+    <h3>🔧 IT Support</h3>
+    <p>Technical support and problem solving.</p>
+
+    <h3>🗄 Database Services</h3>
+    <p>Database setup and management.</p>
+
+    <h3>🌐 Basic Networking</h3>
+    <p>LAN setup and network troubleshooting.</p>
+</section>
+
+<section id="downloads">
+    <h2>Downloads</h2>
+
+    <a href="brochure.pdf" download>
+        Download AK Digital Hub Brochure
+    </a>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+
+    <p>Email: alfoncemutua398@gmail.com</p>
+    <p>Phone: +254 731 065515</p>
+</section>
 
 <footer>
-    <p>© 2026 AK Digital Hub</p>
+    © 2026 AK Digital Hub
 </footer>
 
 </body>
